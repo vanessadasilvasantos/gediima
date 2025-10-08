@@ -55,10 +55,10 @@ const Footer = () => {
               (98) 98822-9693
             </a>
             <a
-              href="mailto:contato@gediima.org"
+              href="mailto:raphaela@rota098.com.br"
               className="hover:text-[#ddd] transition-colors duration-200"
             >
-              contato@gediima.org
+              raphaela@rota098.com.br
             </a>
             <p className="text-sm text-gray-300 mt-2">
               São Luís - Maranhão, Brasil

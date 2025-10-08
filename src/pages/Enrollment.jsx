@@ -1,13 +1,16 @@
 import React from "react";
 import Button from "../components/button";
 import Values from "../components/Values";
+import { useNavigate } from "react-router-dom";
 
 const Enrollment = () => {
+    const navigate = useNavigate()
+
     return(
         <div className="mx-60 max-xl:mx-30 max-lg:mx-10 max-md:mx-5">
             <div className="mb-16 flex justify-between items-center max-sm:block">
                 <h1 className="font-semibold text-4xl">Tabela de valores</h1>
-                <Button text='Garanta sua vaga' className='max-sm:w-[100%] max-sm:mt-8'/>
+                <Button text='Garanta sua vaga' className='max-sm:w-[100%] max-sm:mt-8' onClick={() => window.open('https://forms.gle/AgRwCpNXgkdgoFtHA', '_blank')}/>
             </div>
             <div>
                 <h2 className="text-xl mb-5 text-[#333] ">Inscrição até dia 15/10</h2>
