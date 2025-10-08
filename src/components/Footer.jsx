@@ -61,6 +61,9 @@ const Footer = () => {
               raphaela@rota098.com.br
             </a>
             <p className="text-sm text-gray-300 mt-2">
+              Raphaela Dias
+            </p>
+            <p className="text-sm text-gray-300 mt-2">
               São Luís - Maranhão, Brasil
             </p>
           </div>

@@ -14,21 +14,21 @@ const Enrollment = () => {
             </div>
             <div>
                 <h2 className="text-xl mb-5 text-[#333] ">Inscrição até dia 15/10</h2>
-                <div className="grid grid-cols-1 max-sm:grid-cols-2 max-lg:grid-cols-4 gap-4 max-sm:grid-cols-2 ">
+                <div className="grid grid-cols-4 max-sm:grid-cols-2 max-lg:grid-cols-4 gap-4 max-sm:grid-cols-2 ">
                     <Values text='Médicos' value='100,00'/>
                     <Values text='Residentes' value='80,00'/>
                     <Values text='Estudantes' value='60,00'/>
                     <Values text='Outros' value='60,00'/>
                 </div>
                 <h2 className="text-xl text-[#333] mb-5  mt-10">Inscrição do dia 15/10 a 04/11</h2>
-                <div className="grid grid-cols-1 max-sm:grid-cols-2 max-lg:grid-cols-4 gap-4 max-sm:grid-cols-2 ">
+                <div className="grid grid-cols-4 max-sm:grid-cols-2 max-lg:grid-cols-4 gap-4 max-sm:grid-cols-2 ">
                     <Values text='Médicos' value='150,00'/>
                     <Values text='Residentes' value='100,00'/>
                     <Values text='Estudantes' value='80,00'/>
                     <Values text='Outros' value='80,00'/>
                 </div>
                 <h2 className="text-xl text-[#333] mb-5  mt-10">Inscrição feitas no local</h2>
-                <div className="grid grid-cols-1 max-sm:grid-cols-2 max-lg:grid-cols-4 gap-4 max-sm:grid-cols-2 ">
+                <div className="grid grid-cols-4 max-sm:grid-cols-2 max-lg:grid-cols-4 gap-4 max-sm:grid-cols-2 ">
                     <Values showButton={false} text='Médicos' value='200,00'/>
                     <Values showButton={false} text='Residentes' value='150,00'/>
                     <Values showButton={false} text='Estudantes' value='100,00'/>
