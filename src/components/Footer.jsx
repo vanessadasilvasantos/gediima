@@ -61,9 +61,6 @@ const Footer = () => {
               raphaela@rota098.com.br
             </a>
             <p className="text-sm text-gray-300 mt-2">
-              Raphaela Dias
-            </p>
-            <p className="text-sm text-gray-300 mt-2">
               São Luís - Maranhão, Brasil
             </p>
           </div>
@@ -71,6 +68,9 @@ const Footer = () => {
       </div>
 
       {/* 🔹 Linha inferior */}
+            <p className="text-sm text-gray-300 mb-2 text-center">
+              Raphaela Dias
+            </p>
       <div className="border-t border-white/20 text-center py-4 text-sm text-gray-300">
         © {new Date().getFullYear()} GEDIIMA — Todos os direitos reservados.
       </div>
