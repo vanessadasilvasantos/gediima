@@ -54,6 +54,9 @@ const Footer = () => {
             >
               (98) 98822-9693
             </a>
+            <p className="text-sm text-gray-300 mb-2">
+              Raphaela Dias
+            </p>
             <a
               href="mailto:raphaela@rota098.com.br"
               className="hover:text-[#ddd] transition-colors duration-200"
@@ -68,9 +71,6 @@ const Footer = () => {
       </div>
 
       {/* 🔹 Linha inferior */}
-            <p className="text-sm text-gray-300 mb-2 text-center">
-              Raphaela Dias
-            </p>
       <div className="border-t border-white/20 text-center py-4 text-sm text-gray-300">
         © {new Date().getFullYear()} GEDIIMA — Todos os direitos reservados.
       </div>
