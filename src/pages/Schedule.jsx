@@ -4,52 +4,172 @@ const Schedule = () => {
     return(
         <div className="mx-60 max-md:mx-5 max-xl:mx-30 max-lg:mx-10">
             <h1 className="font-semibold text-4xl mb-16">Programação</h1>
-            <div className="grid grid-cols-2 gap-8 max-sm:grid-cols-1">
-                <div className="border border-[#154d7b] rounded-2xl p-8 flex-wrap">
-                    <h2 className="text-xl font-bold text-[#154d7b]">1° Dia</h2>
-                    <span className="block font-semibold text-xs uppercase mt-1 text-[#a7a7a7]">#Quinta feira</span>
-                    <span className="text-[#333] mt-3 block text-sm">15/05/2025 ・ Manhã</span>
-                    <p className="mt-2"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
-                    <p className="mt-1"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
-                    <p className="mt-1"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
+            <div>
+                <h2 className="text-xl font-bold text-[#145745] after:block after:w-[100%] after:h-[.01rem] after:rounded after:bg-[#145745] block mb-10">07 de novembro - Sexta Feira</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">19:00</span>
+                    <p>Credenciamento</p>
                 </div>
-                <div className="border border-[#154d7b] rounded-2xl p-8">
-                    <h2 className="text-xl font-bold text-[#154d7b]">1° Dia</h2>
-                    <span className="block font-semibold text-xs uppercase mt-1 text-[#a7a7a7]">#Quinta feira</span>
-                    <span className="text-[#333] mt-3 block text-sm">15/05/2025 ・ Manhã</span>
-                    <p className="mt-2"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
-                    <p className="mt-1"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
-                    <p className="mt-1"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">19:30 - 19:40</span>
+                    <p>Abertura – Lícia Rodrigues</p>
                 </div>
-                <div className="border border-[#154d7b] rounded-2xl p-8">
-                    <h2 className="text-xl font-bold text-[#154d7b]">1° Dia</h2>
-                    <span className="block font-semibold text-xs uppercase mt-1 text-[#a7a7a7]">#Quinta feira</span>
-                    <span className="text-[#333] mt-3 block text-sm">15/05/2025 ・ Manhã</span>
-                    <p className="mt-2"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
-                    <p className="mt-1"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
-                    <p className="mt-1"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">19:40 - 20:10</span>
+                    <p className="font-semibold">Conferência:  Perspectivas atuais e futuras das DIIs: do diagnóstico ao tratamento - Dra Cyrla</p>
                 </div>
-                <div className="border border-[#154d7b] rounded-2xl p-8">
-                    <h2 className="text-xl font-bold text-[#154d7b]">1° Dia</h2>
-                    <span className="block font-semibold text-xs uppercase mt-1 text-[#a7a7a7]">#Quinta feira</span>
-                    <span className="text-[#333] mt-3 block text-sm">15/05/2025 ・ Manhã</span>
-                    <p className="mt-2"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
-                    <p className="mt-1"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
-                    <p className="mt-1"><strong className="font-semibold">08:00 – 08:10</strong> Abertura do congresso
-                    Câncer Colorretal</p>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">20:10 - 21:30</span>
+                    <p>Simpósio Johnson & Johnson</p>
                 </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">21:30 - 22:30</span>
+                    <p>Coquetel de Abertura</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
             </div>
+            <div className="mt-10">
+                <h2 className="text-xl font-bold text-[#145745] after:block after:w-[100%] after:h-[.01rem] after:rounded after:bg-[#145745] block mb-10">08 de novembro - Sábado</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">8:00</span>
+                    <p>Boas Vindas – Lícia Rodrigues </p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">8:10</span>
+                    <div>
+                        <div>
+                            <p>Mesa redonda – Multidisciplinaridades na condução das DII</p>
+                            <p className="text-xs font-semibold mt-1">Presidente: Aida Araújo</p>
+                            <p className="text-xs font-semibold mt-1">Debatedores: Claúdia Nunes e Sérgio Faray</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">8:10 - 8:30</span>
+                    <p>Terapia nutricional na DII e em pacientes graves: Dra Brenda</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">8:30 - 8:50</span>
+                    <p>Doença Inflamatória Intestinal e Gestação:  Dra Cyrla</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">8:50 - 9:10</span>
+                    <p>As armadilhas das colites induzidas por drogas – Dr. Helio</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">9:10 - 9:20</span>
+                    <p>Doença inflamatória na pediatria – desafios e inovações: Dra Vera Sdepanian</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">9:20 - 9:35</span>
+                    <p>Discussão</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">9:40 - 10:40</span>
+                    <p className="font-semibold">Simpósio Abbvie </p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">11:10</span>
+                    <div>
+                        <p>Mesa redonda – Desafios no diagnóstico</p>
+                        <p className="text-xs font-semibold mt-1">Presidente: Debora Fontes</p>
+                        <p className="text-xs font-semibold">Debatedores: Thais Medeiros e Maressa</p>
+                    </div>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">10:40 a 11:00</span>
+                    <p>Diagnóstico das DIIs: usando com sabedoria os exames laboratoriais – Dr. Francisco Pena</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">11:00 a 11:20</span>
+                    <p>Endoscopia na prática clínica das DII: ferramenta de ouro para o diagnóstico e tratamento – Dr. Tiago Vieira</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">11:20 a 11:40</span>
+                    <p>Imagem no diagnóstico e no seguimento dos pacientes com DII – Dr. Eduardo Medeiros</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">11:40 a 12:00</span>
+                    <p>Desvendando o papel da patologia no diagnóstico e acompanhamento das DIIs – Dr. Guilherme</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">12:00 - 12:15</span>
+                    <p>Discussão</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">12:15 - 12:30</span>
+                    <p>Visita aos stands</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">12:30 - 13:30</span>
+                    <p className="font-semibold">Simpósio Takeda</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">13:30</span>
+                    <div>
+                        <p>Mesa redonda:  Tratamento</p>
+                        <p className="text-xs font-semibold mt-1">Presidente: Flávio Roberto</p>
+                        <p className="text-xs font-semibold">Debatedores: Diogo Fontes e Kilson</p>
+                    </div>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">13:30 - 13:50</span>
+                    <p>Terapia convencional na DII: ainda tem espaço? -  Dr. Valbert</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">13:50 - 14:10</span>
+                    <p>Biológico quando iniciar e como escolher - Dr. Alexander</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">14:10 - 14:30</span>
+                    <p>O cirurgião na linha de frente do tratamento - o que há de novo na doença perianal – Dr. Ramon</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">14:30 - 14:50</span>
+                    <p>Paciente com DII e displasia em biópsias do cólon - Como conduzir? – Dr. Ramon</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">14:50 - 15:10</span>
+                    <p>Colite aguda grave como conduzir – Dr. Sandro</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">15:10 - 15:30</span>
+                    <p>Discussão</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">15:30</span>
+                    <p>Encerramento</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+            </div>
+                    
         </div>
     )
 }
