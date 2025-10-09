@@ -21,26 +21,17 @@ const Footer = () => {
 
         {/* 🔹 Redes sociais */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <h6 className="font-semibold mb-3 text-lg">Redes sociais</h6>
+          <h6 className="font-semibold mb-3 text-lg">Local do evento</h6>
           <div className="flex flex-col gap-1">
-            <Link
-              to="/"
-              className="hover:text-[#ddd] transition-colors duration-200"
-            >
-              Instagram
-            </Link>
-            <Link
-              to="/"
-              className="hover:text-[#ddd] transition-colors duration-200"
-            >
-              LinkedIn
-            </Link>
-            <Link
-              to="/"
-              className="hover:text-[#ddd] transition-colors duration-200"
-            >
-              Facebook
-            </Link>
+            <p className="text-sm text-gray-300 mt-2">
+              ITC – SÃO LUÍS -MA
+            </p>
+            <p className="text-sm text-gray-300 mt-2">
+              Rua Carutapera nº 5 – Jardim Renascença 
+            </p>
+            <p className="text-sm text-gray-300 mt-2">
+              CEP: 65075-670
+            </p>
           </div>
         </div>
 
@@ -63,9 +54,6 @@ const Footer = () => {
             >
               raphaela@rota098.com.br
             </a>
-            <p className="text-sm text-gray-300 mt-2">
-              São Luís - Maranhão, Brasil
-            </p>
           </div>
         </div>
       </div>
