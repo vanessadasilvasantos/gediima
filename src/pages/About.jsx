@@ -19,6 +19,7 @@ import Abbvie from '../assets/abbvie.png'
 import Gediib from '../assets/Gediib.jpeg'
 import Cedro from '../assets/Cedro.png'
 import Jhonson from '../assets/Jhonson.jpeg'
+import Nestle from '../assets/Nestle.png'
 
 const About = () => {
     const navigate = useNavigate();
@@ -55,12 +56,13 @@ const About = () => {
                 <img src={LogoPng} className="h-40 max-lg:h-30 max-sm:h-20"/>
                 <h2 className="text-xl max-sm:text-lg font-semibold mb-5  mt-10">Patrocínio premium:</h2>
                 <div className="flex items-center gap-2">
-                    <img src={Jhonson} className="h-8 max-lg:h-8 max-sm:h-5"/>
+                    <img src={Jhonson} className="h-8 max-lg:h-8 max-sm:h-3"/>
                     <img src={Abbvie} className="h-12 max-lg:h-8 max-sm:h-5"/>
                     <img src={Takeada} className="h-26 max-lg:h-20 max-sm:h-10"/>
                 </div>
                 <h2 className="text-xl max-sm:text-lg font-semibold mb-5 mt-10 ">Patrocínio plus:</h2>
                 <div className="flex items-center gap-2 flex-wrap">
+                    <img src={Nestle} className="h-28 max-lg:h-20 max-sm:h-15"/>
                     <img src={Rima} className="h-20 mb-4 max-lg:h-15 max-sm:h-10"/>
                     <img src={Odos} className="h-30 max-lg:h-20 max-sm:h-15"/>
                     <img src={Zilfarma} className="h-30 max-lg:h-20 max-sm:h-15"/>
