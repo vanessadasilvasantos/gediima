@@ -18,6 +18,7 @@ import Anima from '../assets/Anima.jpeg'
 import Abbvie from '../assets/abbvie.png'
 import Gediib from '../assets/Gediib.jpeg'
 import Cedro from '../assets/Cedro.png'
+import Jhonson from '../assets/Jhonson.jpeg'
 
 const About = () => {
     const navigate = useNavigate();
@@ -54,8 +55,9 @@ const About = () => {
                 <img src={LogoPng} className="h-40 max-lg:h-30 max-sm:h-20"/>
                 <h2 className="text-xl max-sm:text-lg font-semibold mb-5  mt-10">Patrocínio premium:</h2>
                 <div className="flex items-center gap-2">
-                    <img src={Abbvie} className="h-16 max-lg:h-8 max-sm:h-5"/>
-                    <img src={Takeada} className="h-30 max-lg:h-20 max-sm:h-10"/>
+                    <img src={Jhonson} className="h-8 max-lg:h-8 max-sm:h-5"/>
+                    <img src={Abbvie} className="h-12 max-lg:h-8 max-sm:h-5"/>
+                    <img src={Takeada} className="h-26 max-lg:h-20 max-sm:h-10"/>
                 </div>
                 <h2 className="text-xl max-sm:text-lg font-semibold mb-5 mt-10 ">Patrocínio plus:</h2>
                 <div className="flex items-center gap-2 flex-wrap">
