@@ -20,6 +20,8 @@ import Gediib from '../assets/Gediib.jpeg'
 import Cedro from '../assets/Cedro.png'
 import Jhonson from '../assets/Jhonson.jpeg'
 import Nestle from '../assets/Nestle.png'
+import Udi from '../assets/Udi.png'
+import Formulare from '../assets/Formulare.png'
 
 const About = () => {
     const navigate = useNavigate();
@@ -69,6 +71,8 @@ const About = () => {
                     <img src={Clinica} className="h-20 max-lg:h-15 max-sm:h-12"/>
                     <img src={Anima} className="h-30 max-lg:h-20"/>
                     <img src={Cedro} className="h-40 max-lg:h-30"/>
+                    <img src={Udi} className="h-28 max-lg:h-20 max-sm:h-15"/>
+                    <img src={Formulare} className="h-50 max-lg:h-35"/>
                 </div>
                 <h2 className="text-xl max-sm:text-lg font-semibold mb-5  mt-10">Apoio:</h2>
                 <img src={Gediib} className="h-16 max-lg:h-10 max-sm:h-8"/>
