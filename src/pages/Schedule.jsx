@@ -136,7 +136,7 @@ const Schedule = () => {
                 </div>
                 <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
-                    <span className="font-bold">13:30</span>
+                    <span className="font-bold">13:30 – 15:30</span>
                     <div>
                         <p>Mesa redonda:  Tratamento</p>
                         <p className="text-xs font-semibold mt-1">Presidente:  Dr. Diogo Fontes - MA</p>
@@ -146,22 +146,22 @@ const Schedule = () => {
                 <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
                     <span className="font-bold">13:30 - 13:50</span>
-                    <p>Terapia convencional na DII: ainda tem espaço? -  Dr. Valbert Alves Batista - MA</p>
-                </div>
-                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
-                    <span className="font-bold">13:50 - 14:10</span>
-                    <p>Biológico quando iniciar e como escolher - Dr. Alexander Rolim - SP</p>
-                </div>
-                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
-                    <span className="font-bold">14:10 - 14:30</span>
                     <p>O cirurgião na linha de frente do tratamento - o que há de novo na doença perianal – Dr. Ramon Mendes - BA</p>
                 </div>
                 <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">13:50 - 14:10</span>
+                    <p>Indicações da abordagem cirúrgica: o que as novas plataformas acrescentam – Dr. Ramon Mendes - BA</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
+                    <span className="font-bold">14:10 - 14:30</span>
+                    <p>Terapia convencional na DII: ainda tem espaço? -  Dr. Valbert Alves Batista - MA</p>
+                </div>
+                <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
                     <span className="font-bold">14:30 - 14:50</span>
-                    <p>Paciente com DII e displasia em biópsias do cólon - Como conduzir? – Dr. Ramon Mendes - BA</p>
+                    <p>Biológico quando e como escolher - Dr. Alexander Rolim - SP</p>
                 </div>
                 <div className="w-full h-[1px] bg-[#ddd] my-4"></div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-20">
