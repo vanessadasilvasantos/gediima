@@ -10,9 +10,9 @@ const Schedule = () => {
 
     return(
         <div className="mx-60 max-md:mx-5 max-xl:mx-30 max-lg:mx-10">
-            <div className="flex items-center mb-16 justify-between">
-                <h1 className="font-semibold text-4xl">Programação</h1>
-                <Button text="Baixar programação" onClick={downloadProgramacao}/>
+            <div className="flex items-center mb-16 justify-between max-sm:block max-sm:mb-8">
+                <h1 className="font-semibold text-4xl max-sm:mb-6">Programação</h1>
+                <Button text="Baixar programação" className="max-sm:w-[100%]" onClick={downloadProgramacao}/>
             </div>
             <div>
                 <h2 className="text-xl font-bold text-[#145745] after:block after:w-[100%] after:h-[.01rem] after:rounded after:bg-[#145745] block mb-10">07 de novembro - Sexta Feira</h2>

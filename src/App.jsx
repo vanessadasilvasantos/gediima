@@ -68,7 +68,7 @@ function LayoutWithNav() {
                   : "after:w-0 hover:after:w-full"
               }`}
             >
-              Diretoria
+              Palestrantes
             </Link>
 
             <Link
